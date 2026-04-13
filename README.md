@@ -8,7 +8,7 @@ Repository ini berisi 3 task utama:
 
 ---
 
-# 📦 1. Backend Setup
+# 1. Backend Setup
 Masuk ke folder backend:
 
 ```bash
@@ -31,7 +31,7 @@ http://localhost:3000/api-docs
 
 ---
 
-# 🤖 2. Automation Setup
+# 2. Automation Setup
 Masuk ke folder automation:
 
 ```bash
@@ -61,18 +61,18 @@ Windows testing menggunakan:
 
 ---
 
-# 🗄️ 3. SQL Data Processing
-Jalankan file berikut di MySQL / SQLyog:
+# 3. SQL Data Processing
+Jalankan SQL secara berurutan di MySQL/ SQLyog:
 
-```text
+```sql
+sql/init_data.sql
 sql/data_processing.sql
 ```
 
-Database yang digunakan:
-
-```text
-company_db
-```
+Langkah:
+1. Jalankan `init_data.sql`
+2. Jalankan `data_processing.sql`
+3. Database akan otomatis menggunakan `company_db`
 
 ---
 
